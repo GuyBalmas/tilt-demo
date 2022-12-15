@@ -1,4 +1,3 @@
-""" load('ext://pack', 'pack') """
 load('ext://restart_process', 'docker_build_with_restart')
 
 local_resource(
