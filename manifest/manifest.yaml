@@ -17,12 +17,12 @@ spec:
         - name: example-app
           image: tilt-example-image
           env:
-        - name: GREETING_MSG
-          value: "Welcome to Tilt demo!!!"
-        - name: GREETING_DESC
-          value: "Hello World!"
-        - name: KUBERNETES_NAMESPACE
-          value: "default"
+            - name: GREETING_MSG
+              value: "Welcome to Tilt demo!!!"
+            - name: GREETING_DESC
+              value: "Hello World!"
+            - name: KUBERNETES_NAMESPACE
+              value: "default"
 ---
 apiVersion: v1
 kind: Service
