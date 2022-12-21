@@ -12,4 +12,10 @@ class HelloControllerTests {
         Assertions.assertEquals(true,true);
 	}
 
+	@Test
+	void anotherTest() {
+		Assertions.assertEquals(false,true);
+	}
+
+
 }
