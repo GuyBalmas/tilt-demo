@@ -30,7 +30,7 @@ metadata:
   name: tilt-example
 spec:
   ports:
-  - port: 8080
-    targetPort: 8080
+    - port: 8080
+      targetPort: 8080
   selector:
     app: tilt-example
